@@ -28,3 +28,8 @@ permenent record of the transaction.
 * [solidus_auth_devise](https://github.com/solidusio/solidus_auth_devise) -
 An offical, more robust implementation of a User class with Devise
 integration.
+
+## The Payment Sub-System
+* `Spree::Payment` - Manage and process a payment for an order, from a specific
+source (e.g. `Spree::CreditCard`) using a specific payment method (e.g
+`Solidus::Gateway::Braintree`).
