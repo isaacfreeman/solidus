@@ -15,6 +15,7 @@ Currently, these models remain in the Spree namespace as part of the legacy of
 * [The Order Sub-System](https://github.com/bbuchalter/solidus/blob/core-readme/core/README.md#the-order-sub-system)
 * [The User Sub-System](https://github.com/bbuchalter/solidus/blob/core-readme/core/README.md#the-user-sub-system)
 * [The Payment Sub-System](https://github.com/bbuchalter/solidus/blob/core-readme/core/README.md#the-payment-sub-system)
+* [The Inventory Sub-System](https://github.com/bbuchalter/solidus/blob/core-readme/core/README.md#the-inventory-sub-system)
 
 
 ## The Order Sub-System
@@ -41,3 +42,7 @@ intended to provide a base for extension. See
 https://github.com/solidusio/solidus_gateway/ for offically supported payment
 gateway implementations.
 * `Spree::CreditCard` - The default `source` of a `Spree::Payment`.
+
+## The Inventory Sub-System
+* `Spree::ReturnAuthorization` - Models the return of Inventory Units to
+a Stock Location for an Order.
